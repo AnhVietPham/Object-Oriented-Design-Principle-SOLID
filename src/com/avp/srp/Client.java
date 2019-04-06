@@ -2,18 +2,25 @@ package com.avp.srp;
 
 public class Client {
     public static void main(String[] args) {
-        Employee employeeAVP = new Employee()
+        Employee employeeAVP = new Employee(10, "Anh Viet Pham", "Android Developer", true);
+        hireNewEmployee(employeeAVP);
+        printEmployeeReport(employeeAVP, FormatType.CSV);
+        terminateEmployee(employeeAVP);
     }
 
-    public static void hireNewEmployee(Employee emp) {
+    private static void hireNewEmployee(Employee emp) {
+        EmployeeDAO employeeDAO = new EmployeeDAO();
+        employeeDAO.saveEmployee(emp);
 
     }
 
-    public static void terminateEmployee(Employee emp) {
-
+    private static void terminateEmployee(Employee emp) {
+        EmployeeDAO employeeDAO = new EmployeeDAO();
+        employeeDAO.deleteEmployee(emp);
     }
 
-    public static void printEmployeeReport(Employee emp) {
-
+    private static void printEmployeeReport(Employee emp, FormatType formatType) {
+        EmployeeReportFormatter employeeReportFormatter = new EmployeeReportFormatter(emp, formatType);
+        System.out.println(employeeReportFormatter.getEmployeeFormatter());
     }
 }

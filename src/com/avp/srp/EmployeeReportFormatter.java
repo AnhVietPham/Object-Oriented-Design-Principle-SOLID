@@ -1,11 +1,11 @@
 package com.avp.srp;
 
-public class EmployeeReportFormatter extends ReportFormatter {
-    public EmployeeReportFormatter(Employee emp, FormatType formatType) {
+class EmployeeReportFormatter extends ReportFormatter {
+    EmployeeReportFormatter(Employee emp, FormatType formatType) {
         super(emp, formatType);
     }
 
-    public String getEmployeeFormatter() {
+    String getEmployeeFormatter() {
         return getFormattedOutput();
     }
 }

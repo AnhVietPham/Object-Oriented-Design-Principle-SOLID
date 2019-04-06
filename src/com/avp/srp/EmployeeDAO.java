@@ -3,7 +3,7 @@ package com.avp.srp;
 public class EmployeeDAO {
     private DatabaseConnectionManager connectionDBManager;
 
-    public EmployeeDAO(){
+    EmployeeDAO(){
         connectionDBManager = DatabaseConnectionManager.getInstance();
     }
 
