@@ -1,4 +1,4 @@
-package com.avp.srp;
+package com.avp.srp.domain;
 
 public class Employee {
     private long id;
@@ -6,7 +6,7 @@ public class Employee {
     private String department;
     private boolean working;
 
-    Employee(long id, String name, String department, boolean working){
+    public Employee(long id, String name, String department, boolean working){
         this.id = id;
         this.name = name;
         this.department = department;

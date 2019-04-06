@@ -1,4 +1,4 @@
-package com.avp.srp;
+package com.avp.srp.database;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

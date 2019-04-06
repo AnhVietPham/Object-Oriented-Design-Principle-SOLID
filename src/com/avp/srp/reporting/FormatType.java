@@ -1,4 +1,4 @@
-package com.avp.srp;
+package com.avp.srp.reporting;
 
 public enum FormatType {
     XML,

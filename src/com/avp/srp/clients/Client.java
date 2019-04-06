@@ -1,4 +1,9 @@
-package com.avp.srp;
+package com.avp.srp.clients;
+
+import com.avp.srp.domain.Employee;
+import com.avp.srp.domain.EmployeeDAO;
+import com.avp.srp.reporting.EmployeeReportFormatter;
+import com.avp.srp.reporting.FormatType;
 
 public class Client {
     public static void main(String[] args) {

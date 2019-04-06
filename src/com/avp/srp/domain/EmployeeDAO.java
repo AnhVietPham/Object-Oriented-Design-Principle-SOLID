@@ -1,9 +1,11 @@
-package com.avp.srp;
+package com.avp.srp.domain;
+
+import com.avp.srp.database.DatabaseConnectionManager;
 
 public class EmployeeDAO {
     private DatabaseConnectionManager connectionDBManager;
 
-    EmployeeDAO(){
+    public EmployeeDAO(){
         connectionDBManager = DatabaseConnectionManager.getInstance();
     }
 
