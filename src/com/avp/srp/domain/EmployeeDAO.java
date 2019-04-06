@@ -16,7 +16,9 @@ public class EmployeeDAO {
         *    // To do something
         * connectionDBManager.disconnect()
         * */
+        connectionDBManager.connect();
         System.out.println("Employee saved to DB");
+        connectionDBManager.disConnect();
     }
 
     public void deleteEmployee(Employee emp) {
@@ -26,6 +28,8 @@ public class EmployeeDAO {
         *    // To do something
         * connectionDBManager.disconnect()
         * */
+        connectionDBManager.connect();
         System.out.println("Employee removed from DB");
+        connectionDBManager.disConnect();
     }
 }

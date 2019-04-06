@@ -1,8 +1,6 @@
 package com.avp.srp.database;
 
 import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
 
 public class DatabaseConnectionManager {
     private Connection connection;
@@ -19,20 +17,14 @@ public class DatabaseConnectionManager {
     }
 
     public void connect() {
-        try {
-            connection = DriverManager.getConnection("some/example/myDb");
-            System.out.println("Established Database Connection...");
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+        // Todo something connecting DB
+        System.out.println("Established Database Connection...");
+
     }
 
     public void disConnect() {
-        try {
-            connection.close();
-            System.out.println("Disconnect from Database...");
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+        // Todo something closing DB
+        System.out.println("Disconnect from Database...");
+
     }
 }
