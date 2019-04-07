@@ -1,17 +1,19 @@
 package com.avp.ocp;
 
-public class Employee {
+abstract public class Employee {
     private long id;
     private String name;
     private String department;
     private boolean working;
 
-    public Employee(long id, String name, String department, boolean working){
+    Employee(long id, String name, String department, boolean working){
         this.id = id;
         this.name = name;
         this.department = department;
         this.working = working;
     }
+
+    abstract void performDuties();
 
 
     @Override

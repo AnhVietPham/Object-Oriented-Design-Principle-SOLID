@@ -13,4 +13,10 @@ public class Doctor extends Employee {
     private void diagnosePatients(){
         System.out.println("Diagnosing Patient");
     }
+
+    @Override
+    void performDuties() {
+        prescribeMedicine();
+        diagnosePatients();
+    }
 }

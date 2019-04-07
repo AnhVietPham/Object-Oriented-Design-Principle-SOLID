@@ -18,4 +18,11 @@ public class Nurse extends Employee {
         System.out.println("cleaning Patient Area");
     }
 
+    @Override
+    void performDuties() {
+        checkVitalSigns();
+        drawBlood();
+        cleanPatientArea();
+    }
+
 }
