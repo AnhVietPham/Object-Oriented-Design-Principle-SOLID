@@ -22,11 +22,11 @@ public class RemoteControl {
         System.out.println("---- connected to: "+ this.device + "----");
     }
 
-    public void turnOnDevice() {
+    public void onClickButton() {
         device.turnOn();
     }
 
-    public void turnOffDevice() {
+    public void offClickButton() {
         device.turnOff();
     }
 }
