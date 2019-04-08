@@ -20,4 +20,9 @@ public class Projector implements Device {
     private void pullUpProjectorScreen(){
         System.out.println("Screen raise back up to close");
     }
+
+    @Override
+    public String toString() {
+        return "Projector";
+    }
 }

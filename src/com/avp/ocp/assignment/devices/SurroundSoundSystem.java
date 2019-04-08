@@ -20,4 +20,9 @@ public class SurroundSoundSystem implements Device {
     private void lowerVolume(){
         System.out.println("Volume has been lowered");
     }
+
+    @Override
+    public String toString() {
+        return "SurroundSoundSystem";
+    }
 }

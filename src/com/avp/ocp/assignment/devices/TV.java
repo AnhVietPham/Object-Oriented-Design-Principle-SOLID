@@ -20,4 +20,9 @@ public class TV implements Device {
     private void setUpTVAlarm() {
         System.out.println("Turn on TV Alarm for in the morning");
     }
+
+    @Override
+    public String toString() {
+        return "TV";
+    }
 }
