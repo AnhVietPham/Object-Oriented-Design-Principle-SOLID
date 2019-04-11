@@ -1,8 +1,8 @@
-package com.avp.dip.clients;
+package com.avp.dip.example1.clients;
 
-import com.avp.dip.processes.GeneralManufacturingProcess;
-import com.avp.dip.processes.LaptopManufacturingProcess;
-import com.avp.dip.processes.SmartPhoneManufacturingProcess;
+import com.avp.dip.example1.processes.GeneralManufacturingProcess;
+import com.avp.dip.example1.processes.LaptopManufacturingProcess;
+import com.avp.dip.example1.processes.SmartPhoneManufacturingProcess;
 
 public class DeviceFactory {
     public static void main(String args[]) {

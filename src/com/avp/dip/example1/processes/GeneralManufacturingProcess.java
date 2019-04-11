@@ -1,4 +1,4 @@
-package com.avp.dip.processes;
+package com.avp.dip.example1.processes;
 
 public abstract class GeneralManufacturingProcess {
     String process;
