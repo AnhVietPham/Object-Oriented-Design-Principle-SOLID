@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d05a5cbe-b1ed-4b77-a5ec-12f25aa952fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/avp/dip/example2/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avp/dip/example2/operation/AddCalculatorOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avp/dip/example2/operation/DivideCalculatorOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avp/dip/example2/operation/MultiplyCalculatorOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avp/dip/example2/operation/SubtractCalculatorOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/avp/dip/example2/CalculatorProgram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/avp/dip/example2/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/avp/dip/example2/Calculator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,10 +70,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example2/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="67" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
+            <state relative-caret-position="198">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding>
-                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example2/CalculatorProgram.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="19" column="81" lean-forward="true" selection-start-line="19" selection-start-column="81" selection-end-line="19" selection-end-column="81" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,11 +106,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example2/operation/DivideCalculatorOperation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
               <folding>
                 <element signature="e#243#244#0" expanded="true" />
                 <element signature="e#267#268#0" expanded="true" />
@@ -108,7 +119,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example2/operation/AddCalculatorOperation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
@@ -129,18 +140,6 @@
               <folding>
                 <element signature="e#184#185#0" expanded="true" />
                 <element signature="e#208#209#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example1/clients/DeviceFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="78" lean-forward="true" selection-start-line="13" selection-start-column="78" selection-end-line="13" selection-end-column="78" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -192,12 +191,13 @@
         <option value="$PROJECT_DIR$/src/com/avp/dip/processes/SmartPhoneManufacturingProcess.java" />
         <option value="$PROJECT_DIR$/src/com/avp/dip/example1/processes/SmartPhoneManufacturingProcess.java" />
         <option value="$PROJECT_DIR$/src/com/avp/dip/example2/ICalculatorOperation.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/dip/example2/Calculator.java" />
         <option value="$PROJECT_DIR$/src/com/avp/dip/example2/AddCalculatorOperation.java" />
         <option value="$PROJECT_DIR$/src/com/avp/dip/example2/SubtractCalculatorOperation.java" />
         <option value="$PROJECT_DIR$/src/com/avp/dip/example2/operation/SubtractCalculatorOperation.java" />
         <option value="$PROJECT_DIR$/src/com/avp/dip/example2/operation/MultiplyCalculatorOperation.java" />
         <option value="$PROJECT_DIR$/src/com/avp/dip/example2/operation/DivideCalculatorOperation.java" />
+        <option value="$PROJECT_DIR$/src/com/avp/dip/example2/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/com/avp/dip/example2/CalculatorProgram.java" />
       </list>
     </option>
   </component>
@@ -296,7 +296,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DeviceFactory">
+  <component name="RunManager" selected="Application.CalculatorProgram">
+    <configuration name="CalculatorProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.avp.dip.example2.CalculatorProgram" />
+      <module name="Object-Oriented-Design-Principle-SOLID" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.avp.dip.example2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.avp.srp.clients.Client" />
       <module name="Object-Oriented-Design-Principle-SOLID" />
@@ -348,6 +361,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalculatorProgram" />
         <item itemvalue="Application.DeviceFactory" />
         <item itemvalue="Application.EmergencyRoomProcess" />
         <item itemvalue="Application.Client" />
@@ -533,11 +547,19 @@
       <option name="project" value="LOCAL" />
       <updated>1554991301796</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="DIP Principle example 2 : add all calculator operation">
+      <created>1554991969581</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1554991969581</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1304" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" x="427" y="132" width="433" height="503" id="Project" order="0" visible="true" weight="0.27009645" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -548,7 +570,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2549923" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25345623" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -556,7 +578,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32565284" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32872504" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -592,7 +614,8 @@
     <MESSAGE value="DIP Principle: done exemple 1 DIP" />
     <MESSAGE value="DIP Principle: refactor example 1" />
     <MESSAGE value="DIP Principle example 2 : add ICalculatorOperation.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="DIP Principle example 2 : add ICalculatorOperation.java" />
+    <MESSAGE value="DIP Principle example 2 : add all calculator operation" />
+    <option name="LAST_COMMIT_MESSAGE" value="DIP Principle example 2 : add all calculator operation" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -780,17 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example2/operation/AddCalculatorOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example2/operation/SubtractCalculatorOperation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -798,16 +810,6 @@
           <folding>
             <element signature="e#184#185#0" expanded="true" />
             <element signature="e#208#209#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example2/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="67" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
-          <folding>
-            <element signature="e#238#239#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -826,10 +828,43 @@
     <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example2/operation/DivideCalculatorOperation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding>
             <element signature="e#243#244#0" expanded="true" />
             <element signature="e#267#268#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example2/CalculatorProgram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="19" column="81" lean-forward="true" selection-start-line="19" selection-start-column="81" selection-end-line="19" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example2/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example2/operation/AddCalculatorOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
           </folding>
         </state>
       </provider>
