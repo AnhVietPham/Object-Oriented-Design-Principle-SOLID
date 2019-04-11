@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d05a5cbe-b1ed-4b77-a5ec-12f25aa952fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/avp/dip/GeneralManufacturingProcess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/avp/ocp/HospitalManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/avp/ocp/HospitalManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/avp/ocp/assignment/devices/Projector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/avp/ocp/assignment/devices/Projector.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/avp/dip/GeneralManufacturingProcess.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+            <state relative-caret-position="264">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#190#191#0" expanded="true" />
               </folding>
@@ -101,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/avp/ocp/assignment/devices/Projector.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
-              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -165,9 +161,9 @@
         <option value="$PROJECT_DIR$/src/com/avp/ocp/EmergencyRoomProcess.java" />
         <option value="$PROJECT_DIR$/src/com/avp/ocp/assignment/devices/Device.java" />
         <option value="$PROJECT_DIR$/src/com/avp/ocp/assignment/devices/TV.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/ocp/assignment/devices/Projector.java" />
         <option value="$PROJECT_DIR$/src/com/avp/ocp/HospitalManagement.java" />
         <option value="$PROJECT_DIR$/src/com/avp/dip/GeneralManufacturingProcess.java" />
+        <option value="$PROJECT_DIR$/src/com/avp/ocp/assignment/devices/Projector.java" />
       </list>
     </option>
   </component>
@@ -207,6 +203,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="avp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Object-Oriented-Design-Principle-SOLID" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Object-Oriented-Design-Principle-SOLID" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="avp" type="462c0819:PsiDirectoryNode" />
+              <item name="dip" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -214,7 +217,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554989183124" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554989467680" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -414,12 +417,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554644511813</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="DIP Principle: add GeneralManufacturingProcess.java">
+      <created>1554989237092</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1554989237092</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1304" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" x="427" y="132" width="433" height="503" id="Project" order="0" visible="true" weight="0.24839228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -468,7 +477,9 @@
     <MESSAGE value="OCP Principle: Done Open-Closed principle example" />
     <MESSAGE value="OCP Principle: assignment add Device.java" />
     <MESSAGE value="OCP Principle: assignment add TV.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="OCP Principle: assignment add TV.java" />
+    <MESSAGE value="DIP Principle: add GeneralManufacturingProcess.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="DIP Principle: add GeneralManufacturingProcess.java" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/avp/Main.java" />
@@ -576,7 +587,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/avp/ocp/assignment/devices/Projector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -607,8 +618,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/avp/dip/GeneralManufacturingProcess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        <state relative-caret-position="264">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#190#191#0" expanded="true" />
           </folding>

@@ -1,8 +1,8 @@
 package com.avp.dip;
 
-public class LaptopManufacturingProcess extends GeneralManufacturingProcess {
+public class SmartPhoneManufacturingProcess extends GeneralManufacturingProcess {
 
-    public LaptopManufacturingProcess(String name) {
+    public SmartPhoneManufacturingProcess(String name) {
         super(name);
     }
 
