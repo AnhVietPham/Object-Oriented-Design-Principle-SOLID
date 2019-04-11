@@ -1,9 +1,9 @@
-package com.avp.dip;
+package com.avp.dip.processes;
 
 public abstract class GeneralManufacturingProcess {
-    private String process;
+    String process;
 
-    public GeneralManufacturingProcess(String name) {
+    GeneralManufacturingProcess(String name) {
         this.process = name;
     }
 

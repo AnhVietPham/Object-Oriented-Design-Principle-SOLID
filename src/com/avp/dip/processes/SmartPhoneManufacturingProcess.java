@@ -1,4 +1,4 @@
-package com.avp.dip;
+package com.avp.dip.processes;
 
 public class SmartPhoneManufacturingProcess extends GeneralManufacturingProcess {
 
@@ -8,21 +8,21 @@ public class SmartPhoneManufacturingProcess extends GeneralManufacturingProcess 
 
     @Override
     protected void assembleDevice() {
-        System.out.println("Assembled laptop");
+        System.out.println(process + " Assembled smart phone");
     }
 
     @Override
     protected void testDevice() {
-        System.out.println("Test laptop");
+        System.out.println(process + " Test smart phone");
     }
 
     @Override
     protected void packageDevice() {
-        System.out.println("Package laptop");
+        System.out.println(process + " Package smart phone");
     }
 
     @Override
     protected void storeDevice() {
-        System.out.println("Store laptop");
+        System.out.println(process + " Store smart phone");
     }
 }

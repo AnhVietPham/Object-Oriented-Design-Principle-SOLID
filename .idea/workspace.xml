@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d05a5cbe-b1ed-4b77-a5ec-12f25aa952fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/avp/dip/DeviceFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/avp/dip/GeneralManufacturingProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/avp/dip/GeneralManufacturingProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/avp/dip/LaptopManufacturingProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/avp/dip/LaptopManufacturingProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/avp/dip/SmartPhoneManufacturingProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/avp/dip/SmartPhoneManufacturingProcess.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,23 +15,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avp/ocp/HospitalManagement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/avp/dip/GeneralManufacturingProcess.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="-14">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
               <folding>
+                <element signature="e#155#156#0" expanded="true" />
                 <element signature="e#190#191#0" expanded="true" />
               </folding>
             </state>
@@ -35,27 +35,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avp/ocp/Nurse.java">
+        <entry file="file://$PROJECT_DIR$/src/com/avp/dip/LaptopManufacturingProcess.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+            <state relative-caret-position="316">
+              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
               <folding>
-                <element signature="e#225#226#0" expanded="true" />
-                <element signature="e#278#279#0" expanded="true" />
-                <element signature="e#309#310#0" expanded="true" />
-                <element signature="e#360#361#0" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
-                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#152#153#0" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#232#233#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avp/ocp/Doctor.java">
+        <entry file="file://$PROJECT_DIR$/src/com/avp/dip/SmartPhoneManufacturingProcess.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="352">
+              <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/avp/dip/DeviceFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -96,7 +105,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/avp/ocp/assignment/devices/Projector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
+            <state relative-caret-position="440">
               <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
             </state>
           </provider>
@@ -162,8 +171,11 @@
         <option value="$PROJECT_DIR$/src/com/avp/ocp/assignment/devices/Device.java" />
         <option value="$PROJECT_DIR$/src/com/avp/ocp/assignment/devices/TV.java" />
         <option value="$PROJECT_DIR$/src/com/avp/ocp/HospitalManagement.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/dip/GeneralManufacturingProcess.java" />
         <option value="$PROJECT_DIR$/src/com/avp/ocp/assignment/devices/Projector.java" />
+        <option value="$PROJECT_DIR$/src/com/avp/dip/DeviceFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/avp/dip/GeneralManufacturingProcess.java" />
+        <option value="$PROJECT_DIR$/src/com/avp/dip/LaptopManufacturingProcess.java" />
+        <option value="$PROJECT_DIR$/src/com/avp/dip/SmartPhoneManufacturingProcess.java" />
       </list>
     </option>
   </component>
@@ -183,8 +195,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,7 +229,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554989467680" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554989617572" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -236,13 +249,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EmergencyRoomProcess">
+  <component name="RunManager" selected="Application.DeviceFactory">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.avp.srp.clients.Client" />
       <module name="Object-Oriented-Design-Principle-SOLID" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.avp.srp.clients.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeviceFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.avp.dip.clients.DeviceFactory" />
+      <module name="Object-Oriented-Design-Principle-SOLID" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.avp.dip.processes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -275,6 +301,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeviceFactory" />
         <item itemvalue="Application.EmergencyRoomProcess" />
         <item itemvalue="Application.Client" />
       </list>
@@ -424,13 +451,28 @@
       <option name="project" value="LOCAL" />
       <updated>1554989237092</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="DIP Principle: add LaptopManufacturingProcess.java">
+      <created>1554989484873</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1554989484873</updated>
+    </task>
+    <task id="LOCAL-00021" summary="DIP Principle: add SmartPhoneManufacturingProcess.java">
+      <created>1554989569013</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1554989569013</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1304" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" x="427" y="132" width="433" height="503" id="Project" order="0" visible="true" weight="0.24839228" />
+      <window_info active="true" x="427" y="132" width="433" height="503" id="Project" order="0" visible="true" weight="0.1221865" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -439,7 +481,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22734255" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.04608295" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -478,7 +520,9 @@
     <MESSAGE value="OCP Principle: assignment add Device.java" />
     <MESSAGE value="OCP Principle: assignment add TV.java" />
     <MESSAGE value="DIP Principle: add GeneralManufacturingProcess.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="DIP Principle: add GeneralManufacturingProcess.java" />
+    <MESSAGE value="DIP Principle: add LaptopManufacturingProcess.java" />
+    <MESSAGE value="DIP Principle: add SmartPhoneManufacturingProcess.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="DIP Principle: add SmartPhoneManufacturingProcess.java" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -557,6 +601,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avp/ocp/HospitalManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/avp/ocp/EmergencyRoomProcess.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -586,7 +637,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/avp/ocp/assignment/devices/Projector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
+        <state relative-caret-position="440">
           <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
         </state>
       </provider>
@@ -609,20 +660,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/ocp/HospitalManagement.java">
+    <entry file="file://$PROJECT_DIR$/src/com/avp/dip/LaptopManufacturingProcess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="316">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+          <folding>
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/avp/dip/GeneralManufacturingProcess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="-14">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
           <folding>
+            <element signature="e#155#156#0" expanded="true" />
             <element signature="e#190#191#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avp/dip/SmartPhoneManufacturingProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avp/dip/DeviceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
