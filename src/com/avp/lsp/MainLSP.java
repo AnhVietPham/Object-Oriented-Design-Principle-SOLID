@@ -25,7 +25,6 @@ public class MainLSP {
 //        rectangle.setHeight(10);
 //        System.out.println(rectangle.getArea());
 
-
            /**
             * Good
             * */
