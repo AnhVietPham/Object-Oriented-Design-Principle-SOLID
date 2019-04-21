@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d05a5cbe-b1ed-4b77-a5ec-12f25aa952fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/avp/isp/CustomerTransaction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,15 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example2/operation/AddCalculatorOperation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/avp/lsp/violation/Rectangle.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -108,10 +98,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/avp/isp/CustomerTransaction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
+            <state relative-caret-position="902">
               <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -124,6 +114,15 @@
                 <element signature="e#348#349#0" expanded="true" />
                 <element signature="e#375#376#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/avp/isp/ReportGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="129" selection-start-line="6" selection-start-column="129" selection-end-line="6" selection-end-column="129" />
             </state>
           </provider>
         </entry>
@@ -200,6 +199,7 @@
         <option value="$PROJECT_DIR$/src/com/avp/isp/Accounting.java" />
         <option value="$PROJECT_DIR$/src/com/avp/isp/Reporting.java" />
         <option value="$PROJECT_DIR$/src/com/avp/isp/CustomerTransaction.java" />
+        <option value="$PROJECT_DIR$/src/com/avp/isp/ReportGenerator.java" />
       </list>
     </option>
   </component>
@@ -577,7 +577,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555828795052</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="ISP Principle: add CustomerTransaction.java">
+      <created>1555830191433</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1555830191433</updated>
+    </task>
+    <task id="LOCAL-00033" summary="ISP Principle: add ReportGenerator.java">
+      <created>1555830209854</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1555830209854</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -613,8 +627,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="SRP Principle: Update constructor for Employee.java" />
-    <MESSAGE value="SRP Principle: DONE RSP example" />
     <MESSAGE value="SRP Principle: Refactor package" />
     <MESSAGE value="SRP Principle: Add comment in Client.java" />
     <MESSAGE value="SRP Principle: add connect and disconnect DB in EmployeeDAO.java" />
@@ -638,7 +650,9 @@
     <MESSAGE value="ISP Principle: add Product.java, Customer.java" />
     <MESSAGE value="ISP Principle: add interface Accounting.java" />
     <MESSAGE value="ISP Principle: add interface Reporting.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="ISP Principle: add interface Reporting.java" />
+    <MESSAGE value="ISP Principle: add CustomerTransaction.java" />
+    <MESSAGE value="ISP Principle: add ReportGenerator.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="ISP Principle: add ReportGenerator.java" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -946,7 +960,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/avp/isp/CustomerTransaction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
+        <state relative-caret-position="902">
           <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -959,6 +973,13 @@
             <element signature="e#348#349#0" expanded="true" />
             <element signature="e#375#376#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avp/isp/ReportGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="129" selection-start-line="6" selection-start-column="129" selection-end-line="6" selection-end-column="129" />
         </state>
       </provider>
     </entry>
