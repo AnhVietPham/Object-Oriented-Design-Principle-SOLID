@@ -8,19 +8,19 @@ public class CustomerTransaction implements Accounting, Reporting {
     private List<Product> products;
     private Customer customer;
 
-    public CustomerTransaction(Customer customer, List<Product> products) {
+    CustomerTransaction(Customer customer, List<Product> products) {
         this.products = products;
         this.customer = customer;
     }
 
     @Override
     public void prepareInvoice() {
-        System.out.println("invoice prepared...");
+        System.out.println("Invoice prepared...");
     }
 
     @Override
     public void chargeCustomer() {
-        System.out.println("charged the customer");
+        System.out.println("Charged the customer");
     }
 
     @Override

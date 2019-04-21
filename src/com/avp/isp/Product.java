@@ -12,7 +12,7 @@ public class Product {
         this.productId = productId;
     }
 
-    public String getProductName() {
+    String getProductName() {
         return productName;
     }
 

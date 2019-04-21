@@ -1,17 +1,17 @@
 package com.avp.isp;
 
-public class AccountReceivable {
+class AccountReceivable {
     private Accounting transactionObject;
 
-    public AccountReceivable(Accounting accounting){
+    AccountReceivable(Accounting accounting){
         this.transactionObject = accounting;
     }
 
-    public void postPayment(){
+    void postPayment(){
         transactionObject.chargeCustomer();
     }
 
-    public void sendInvoice(){
+    void sendInvoice(){
         transactionObject.prepareInvoice();
     }
 }
