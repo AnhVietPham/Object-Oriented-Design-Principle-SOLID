@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d05a5cbe-b1ed-4b77-a5ec-12f25aa952fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/avp/isp/Accounting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/avp/isp/CustomerTransaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,32 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example2/operation/MultiplyCalculatorOperation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-              <folding>
-                <element signature="e#245#246#0" expanded="true" />
-                <element signature="e#289#290#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example2/operation/DivideCalculatorOperation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-              <folding>
-                <element signature="e#243#244#0" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example2/operation/AddCalculatorOperation.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -115,11 +90,40 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/avp/isp/Accounting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="88">
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/avp/isp/Reporting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/avp/isp/CustomerTransaction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#461#462#0" expanded="true" />
+                <element signature="e#461#462#0" expanded="true" />
+                <element signature="e#519#520#0" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
+                <element signature="e#375#376#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -194,6 +198,8 @@
         <option value="$PROJECT_DIR$/src/com/avp/isp/Customer.java" />
         <option value="$PROJECT_DIR$/src/com/avp/isp/Product.java" />
         <option value="$PROJECT_DIR$/src/com/avp/isp/Accounting.java" />
+        <option value="$PROJECT_DIR$/src/com/avp/isp/Reporting.java" />
+        <option value="$PROJECT_DIR$/src/com/avp/isp/CustomerTransaction.java" />
       </list>
     </option>
   </component>
@@ -557,14 +563,28 @@
       <option name="project" value="LOCAL" />
       <updated>1555828548255</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="ISP Principle: add interface Accounting.java">
+      <created>1555828691036</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1555828691036</updated>
+    </task>
+    <task id="LOCAL-00031" summary="ISP Principle: add interface Reporting.java">
+      <created>1555828795051</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1555828795052</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1304" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" x="427" y="132" width="433" height="503" id="Project" order="0" visible="true" weight="0.2982315" />
+      <window_info active="true" x="427" y="132" width="433" height="503" id="Project" order="0" visible="true" weight="0.18488745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -593,8 +613,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="SRP Principle: Add ReportFormatter.java" />
-    <MESSAGE value="SRP Principle: Add EmployeeReportFormatter.java" />
     <MESSAGE value="SRP Principle: Update constructor for Employee.java" />
     <MESSAGE value="SRP Principle: DONE RSP example" />
     <MESSAGE value="SRP Principle: Refactor package" />
@@ -618,7 +636,9 @@
     <MESSAGE value="LSP Principle example 2 : Violation example" />
     <MESSAGE value="LSP Principle example 2 : Merge code" />
     <MESSAGE value="ISP Principle: add Product.java, Customer.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="ISP Principle: add Product.java, Customer.java" />
+    <MESSAGE value="ISP Principle: add interface Accounting.java" />
+    <MESSAGE value="ISP Principle: add interface Reporting.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="ISP Principle: add interface Reporting.java" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -894,6 +914,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avp/isp/Accounting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avp/isp/Reporting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/avp/isp/Product.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -910,10 +944,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/isp/Accounting.java">
+    <entry file="file://$PROJECT_DIR$/src/com/avp/isp/CustomerTransaction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="572">
+          <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
