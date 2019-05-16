@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d05a5cbe-b1ed-4b77-a5ec-12f25aa952fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/avp/pattern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avp/pattern/observer/domain/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avp/pattern/observer/domain/EmployeeDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avp/pattern/observer/observer/IObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avp/pattern/observer/subject/EmployeeManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avp/pattern/observer/subject/ISubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/avp/pattern/builder/Bond.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,115 +19,77 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avp/isp/CustomerTransaction.java">
+        <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example1/processes/LaptopManufacturingProcess.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="44">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example2/ICalculatorOperation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example2/CalculatorProgram.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="13" column="68" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/avp/pattern/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/com/avp/pattern/builder/Bond.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+            <state relative-caret-position="154">
+              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avp/pattern/observer/subject/ISubject.java">
+        <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example2/Calculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+              <folding>
+                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example2/operation/AddCalculatorOperation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avp/pattern/observer/subject/EmployeeManagement.java">
+        <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example2/operation/DivideCalculatorOperation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <state relative-caret-position="88">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avp/pattern/observer/domain/Employee.java">
+        <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example2/operation/MultiplyCalculatorOperation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-              <folding>
-                <element signature="e#522#523#0" expanded="true" />
-                <element signature="e#549#550#0" expanded="true" />
-                <element signature="e#589#590#0" expanded="true" />
-                <element signature="e#621#622#0" expanded="true" />
-                <element signature="e#654#655#0" expanded="true" />
-                <element signature="e#685#686#0" expanded="true" />
-                <element signature="e#731#732#0" expanded="true" />
-                <element signature="e#771#772#0" expanded="true" />
-                <element signature="e#801#802#0" expanded="true" />
-                <element signature="e#830#831#0" expanded="true" />
-                <element signature="e#871#872#0" expanded="true" />
-                <element signature="e#907#908#0" expanded="true" />
-                <element signature="e#941#942#0" expanded="true" />
-                <element signature="e#974#975#0" expanded="true" />
-                <element signature="e#1023#1024#0" expanded="true" />
-                <element signature="e#1067#1068#0" expanded="true" />
-                <element signature="e#1101#1102#0" expanded="true" />
-                <element signature="e#1131#1132#0" expanded="true" />
-                <element signature="e#1178#1179#0" expanded="true" />
-                <element signature="e#1216#1217#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avp/pattern/observer/domain/EmployeeDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#722#723#0" expanded="true" />
-                <element signature="e#756#757#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avp/pattern/observer/observer/IObserver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avp/isp/AccountReceivable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avp/isp/MainISP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="17" column="70" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="88">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -145,13 +103,22 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example1/processes/SmartPhoneManufacturingProcess.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Kotlin File" />
         <option value="Class" />
       </list>
     </option>
@@ -162,57 +129,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/avp/srp/ReportFormatter.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/srp/Client.java" />
+        <option value="$PROJECT_DIR$/src/com/avp/srp/Employee.java" />
+        <option value="$PROJECT_DIR$/src/com/avp/srp/DatabaseConectionManager.java" />
+        <option value="$PROJECT_DIR$/src/com/avp/Main.java" />
         <option value="$PROJECT_DIR$/src/com/avp/srp/DatabaseConnectionManager.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/srp/reporting/EmployeeReportFormatter.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/srp/domain/EmployeeDAO.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/srp/database/DatabaseConnectionManager.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/srp/clients/Client.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/HospitalManagement.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/ocp/Employee.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/ocp/Nurse.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/ocp/Doctor.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/ocp/EmergencyRoomProcess.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/ocp/assignment/devices/Device.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/ocp/assignment/devices/TV.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/ocp/HospitalManagement.java" />
         <option value="$PROJECT_DIR$/src/com/avp/ocp/assignment/devices/Projector.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/dip/GeneralManufacturingProcess.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/dip/LaptopManufacturingProcess.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/dip/SmartPhoneManufacturingProcess.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/dip/DeviceFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/dip/processes/SmartPhoneManufacturingProcess.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/dip/example1/processes/SmartPhoneManufacturingProcess.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/dip/example2/ICalculatorOperation.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/dip/example2/AddCalculatorOperation.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/dip/example2/SubtractCalculatorOperation.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/dip/example2/operation/SubtractCalculatorOperation.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/dip/example2/operation/MultiplyCalculatorOperation.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/dip/example2/operation/DivideCalculatorOperation.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/dip/example2/Calculator.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/dip/example2/CalculatorProgram.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/lsp/Rectangle.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/lsp/Square.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/lsp/violation/Square.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/lsp/violation/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/com/avp/ocp/assignment/devices/SurroundSoundSystem.java" />
+        <option value="$PROJECT_DIR$/src/com/avp/ocp/assignment/devices/TV.java" />
+        <option value="$PROJECT_DIR$/src/com/avp/ocp/assignment/remotes/RemoteControl.java" />
+        <option value="$PROJECT_DIR$/src/com/avp/ocp/assignment/users/Person.java" />
+        <option value="$PROJECT_DIR$/src/com/avp/srp/clients/Client.java" />
+        <option value="$PROJECT_DIR$/src/com/avp/lsp/solution/Shape.java" />
+        <option value="$PROJECT_DIR$/src/com/avp/lsp/solution/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/com/avp/lsp/solution/Square.java" />
         <option value="$PROJECT_DIR$/src/com/avp/lsp/MainLSP.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/isp/Customer.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/isp/Accounting.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/isp/Reporting.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/isp/ReportGenerator.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/isp/Product.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/isp/AccountReceivable.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/isp/MainISP.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/isp/CustomerTransaction.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/pattern/observer/observer/IObserver.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/pattern/observer/ISubject.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/pattern/observer/subject/ISubject.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/pattern/observer/subject/EmployeeManagement.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/pattern/observer/domain/EmployeeDAP.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/pattern/observer/domain/EmployeeDAO.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/pattern/observer/domain/Employee.java" />
-        <option value="$PROJECT_DIR$/src/com/avp/pattern/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/avp/pattern/builder/Bond.java" />
       </list>
     </option>
   </component>
@@ -226,9 +157,7 @@
     <navigator proportions="" version="1">
       <flattenPackages ProjectPane="false" />
       <showMembers ProjectPane="false" />
-      <showExcludedFiles Scope="true" ProjectPane="true" />
-      <autoscrollToSource ProjectPane="false" />
-      <autoscrollFromSource ProjectPane="false" />
+      <sortByType ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -263,33 +192,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="avp" type="462c0819:PsiDirectoryNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="observer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Object-Oriented-Design-Principle-SOLID" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Object-Oriented-Design-Principle-SOLID" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="avp" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="observer" type="462c0819:PsiDirectoryNode" />
-              <item name="subject" type="462c0819:PsiDirectoryNode" />
+              <item name="builder" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554989617572" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.avp.ocp" />
-    </key>
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554334016771" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -303,13 +219,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="CalculatorProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.avp.dip.example2.CalculatorProgram" />
+  <component name="RunManager" selected="Application.MainLSP">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.avp.srp.clients.Client" />
       <module name="Object-Oriented-Design-Principle-SOLID" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.avp.dip.example2.*" />
+          <option name="PATTERN" value="com.avp.srp.clients.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -317,12 +233,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeviceFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.avp.dip.example1.clients.DeviceFactory" />
+    <configuration name="EmergencyRoomProcess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.avp.ocp.EmergencyRoomProcess" />
       <module name="Object-Oriented-Design-Principle-SOLID" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.avp.dip.example1.processes.*" />
+          <option name="PATTERN" value="com.avp.ocp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -330,33 +246,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.avp.pattern.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.avp.Main" />
       <module name="Object-Oriented-Design-Principle-SOLID" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.avp.pattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainISP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.avp.isp.MainISP" />
-      <module name="Object-Oriented-Design-Principle-SOLID" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.avp.isp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MainLSP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="12" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.avp.lsp.MainLSP" />
       <module name="Object-Oriented-Design-Principle-SOLID" />
       <extension name="coverage">
@@ -369,13 +271,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.avp.ocp.assignment.users.Person" />
+      <module name="Object-Oriented-Design-Principle-SOLID" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.avp.ocp.assignment.users.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.EmergencyRoomProcess" />
+      <item itemvalue="Application.MainLSP" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Person" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MainISP" />
         <item itemvalue="Application.MainLSP" />
-        <item itemvalue="Application.CalculatorProgram" />
-        <item itemvalue="Application.DeviceFactory" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Person" />
+        <item itemvalue="Application.EmergencyRoomProcess" />
       </list>
     </recent_temporary>
   </component>
@@ -397,252 +318,58 @@
       <option name="project" value="LOCAL" />
       <updated>1554332913557</updated>
     </task>
-    <task id="LOCAL-00002" summary="SRP Principle: add DatabaseConnectionManager.java">
-      <created>1554334056755</created>
+    <task id="LOCAL-00002" summary="OCP Principle: add Projector.java">
+      <created>1554703902814</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1554334056755</updated>
+      <updated>1554703902814</updated>
     </task>
-    <task id="LOCAL-00003" summary="SRP Principle: Add EmployeeDAO.java">
-      <created>1554507257207</created>
+    <task id="LOCAL-00003" summary="OCP Principle: add SurroundSoundSystem.java">
+      <created>1554704318574</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1554507257209</updated>
+      <updated>1554704318574</updated>
     </task>
-    <task id="LOCAL-00004" summary="SRP Principle: Add FormatType.java">
-      <created>1554507742062</created>
+    <task id="LOCAL-00004" summary="OCP Principle: edit devices add method toString().">
+      <created>1554712791065</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1554507742062</updated>
+      <updated>1554712791065</updated>
     </task>
-    <task id="LOCAL-00005" summary="SRP Principle: Add ReportFormatter.java">
-      <created>1554508283458</created>
+    <task id="LOCAL-00005" summary="OCP Principle: Add RemoteControl.java">
+      <created>1554712817399</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1554508283458</updated>
+      <updated>1554712817399</updated>
     </task>
-    <task id="LOCAL-00006" summary="SRP Principle: Add EmployeeReportFormatter.java">
-      <created>1554508574427</created>
+    <task id="LOCAL-00006" summary="LSP Principle: done Solution LSP.">
+      <created>1555567405459</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1554508574427</updated>
+      <updated>1555567405459</updated>
     </task>
-    <task id="LOCAL-00007" summary="SRP Principle: Update constructor for Employee.java">
-      <created>1554509348659</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1554509348659</updated>
-    </task>
-    <task id="LOCAL-00008" summary="SRP Principle: DONE RSP example">
-      <created>1554509784493</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1554509784493</updated>
-    </task>
-    <task id="LOCAL-00009" summary="SRP Principle: Refactor package">
-      <created>1554513529231</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1554513529231</updated>
-    </task>
-    <task id="LOCAL-00010" summary="SRP Principle: Add comment in Client.java">
-      <created>1554514498467</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1554514498467</updated>
-    </task>
-    <task id="LOCAL-00011" summary="SRP Principle: add connect and disconnect DB in EmployeeDAO.java">
-      <created>1554515119100</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1554515119100</updated>
-    </task>
-    <task id="LOCAL-00012" summary="OCP Principle: Add Nurse.java, Employee.java">
-      <created>1554536727960</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1554536727960</updated>
-    </task>
-    <task id="LOCAL-00013" summary="OCP Principle: Add Doctor.java">
-      <created>1554537391013</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1554537391013</updated>
-    </task>
-    <task id="LOCAL-00014" summary="OCP Principle: Add HospitalManagement.java">
-      <created>1554642169422</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1554642169423</updated>
-    </task>
-    <task id="LOCAL-00015" summary="OCP Principle: Add abstract method in Employee.java">
-      <created>1554642230300</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1554642230300</updated>
-    </task>
-    <task id="LOCAL-00016" summary="OCP Principle: Done Open-Closed principle example">
-      <created>1554642729716</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1554642729716</updated>
-    </task>
-    <task id="LOCAL-00017" summary="OCP Principle: assignment add Device.java">
-      <created>1554644248528</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1554644248528</updated>
-    </task>
-    <task id="LOCAL-00018" summary="OCP Principle: assignment add TV.java">
-      <created>1554644511813</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1554644511813</updated>
-    </task>
-    <task id="LOCAL-00019" summary="DIP Principle: add GeneralManufacturingProcess.java">
-      <created>1554989237092</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1554989237092</updated>
-    </task>
-    <task id="LOCAL-00020" summary="DIP Principle: add LaptopManufacturingProcess.java">
-      <created>1554989484873</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1554989484873</updated>
-    </task>
-    <task id="LOCAL-00021" summary="DIP Principle: add SmartPhoneManufacturingProcess.java">
-      <created>1554989569013</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1554989569013</updated>
-    </task>
-    <task id="LOCAL-00022" summary="DIP Principle: done exemple 1 DIP">
-      <created>1554990590955</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1554990590956</updated>
-    </task>
-    <task id="LOCAL-00023" summary="DIP Principle: refactor example 1">
-      <created>1554990728802</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1554990728802</updated>
-    </task>
-    <task id="LOCAL-00024" summary="DIP Principle example 2 : add ICalculatorOperation.java">
-      <created>1554991301796</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1554991301796</updated>
-    </task>
-    <task id="LOCAL-00025" summary="DIP Principle example 2 : add all calculator operation">
-      <created>1554991969581</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1554991969581</updated>
-    </task>
-    <task id="LOCAL-00026" summary="DIP Principle example 2 : Done">
-      <created>1554992505555</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1554992505556</updated>
-    </task>
-    <task id="LOCAL-00027" summary="LSP Principle example 2 : Violation example">
-      <created>1555369152712</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1555369152712</updated>
-    </task>
-    <task id="LOCAL-00028" summary="LSP Principle example 2 : Merge code">
-      <created>1555598120221</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1555598120222</updated>
-    </task>
-    <task id="LOCAL-00029" summary="ISP Principle: add Product.java, Customer.java">
-      <created>1555828548255</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1555828548255</updated>
-    </task>
-    <task id="LOCAL-00030" summary="ISP Principle: add interface Accounting.java">
-      <created>1555828691036</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1555828691036</updated>
-    </task>
-    <task id="LOCAL-00031" summary="ISP Principle: add interface Reporting.java">
-      <created>1555828795051</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1555828795052</updated>
-    </task>
-    <task id="LOCAL-00032" summary="ISP Principle: add CustomerTransaction.java">
-      <created>1555830191433</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1555830191433</updated>
-    </task>
-    <task id="LOCAL-00033" summary="ISP Principle: add ReportGenerator.java">
-      <created>1555830209854</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1555830209854</updated>
-    </task>
-    <task id="LOCAL-00034" summary="ISP Principle: add AccountReceivable.java">
-      <created>1555830958609</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1555830958609</updated>
-    </task>
-    <task id="LOCAL-00035" summary="ISP Principle: Done Example">
-      <created>1555833506318</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1555833506318</updated>
-    </task>
-    <option name="localTasksCounter" value="36" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1304" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1554" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" x="427" y="132" width="433" height="503" id="Project" order="0" visible="true" weight="0.19453377" />
+      <window_info active="true" content_ui="combo" x="574" y="58" width="389" height="783" id="Project" order="0" visible="true" weight="0.22356091" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -651,15 +378,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35023043" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23371647" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32950193" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32950193" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32565284" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32872504" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32950193" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.28735632" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -671,183 +398,239 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="SRP Principle: add connect and disconnect DB in EmployeeDAO.java" />
-    <MESSAGE value="OCP Principle: Add Nurse.java, Employee.java" />
-    <MESSAGE value="OCP Principle: Add Doctor.java" />
-    <MESSAGE value="OCP Principle: Add HospitalManagement.java" />
-    <MESSAGE value="OCP Principle: Add abstract method in Employee.java" />
-    <MESSAGE value="OCP Principle: Done Open-Closed principle example" />
-    <MESSAGE value="OCP Principle: assignment add Device.java" />
-    <MESSAGE value="OCP Principle: assignment add TV.java" />
-    <MESSAGE value="DIP Principle: add GeneralManufacturingProcess.java" />
-    <MESSAGE value="DIP Principle: add LaptopManufacturingProcess.java" />
-    <MESSAGE value="DIP Principle: add SmartPhoneManufacturingProcess.java" />
-    <MESSAGE value="DIP Principle: done exemple 1 DIP" />
-    <MESSAGE value="DIP Principle: refactor example 1" />
-    <MESSAGE value="DIP Principle example 2 : add ICalculatorOperation.java" />
-    <MESSAGE value="DIP Principle example 2 : add all calculator operation" />
-    <MESSAGE value="DIP Principle example 2 : Done" />
-    <MESSAGE value="LSP Principle example 2 : Violation example" />
-    <MESSAGE value="LSP Principle example 2 : Merge code" />
-    <MESSAGE value="ISP Principle: add Product.java, Customer.java" />
-    <MESSAGE value="ISP Principle: add interface Accounting.java" />
-    <MESSAGE value="ISP Principle: add interface Reporting.java" />
-    <MESSAGE value="ISP Principle: add CustomerTransaction.java" />
-    <MESSAGE value="ISP Principle: add ReportGenerator.java" />
-    <MESSAGE value="ISP Principle: add AccountReceivable.java" />
-    <MESSAGE value="ISP Principle: Done Example" />
-    <option name="LAST_COMMIT_MESSAGE" value="ISP Principle: Done Example" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="SRP Principle: add Employee.java" />
+    <MESSAGE value="OCP Principle: add Projector.java" />
+    <MESSAGE value="OCP Principle: add SurroundSoundSystem.java" />
+    <MESSAGE value="OCP Principle: edit devices add method toString()." />
+    <MESSAGE value="OCP Principle: Add RemoteControl.java" />
+    <MESSAGE value="LSP Principle: done Solution LSP." />
+    <option name="LAST_COMMIT_MESSAGE" value="LSP Principle: done Solution LSP." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/avp/Main.java" />
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Object.java">
+    <entry file="file://$PROJECT_DIR$/src/com/avp/srp/Employee.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/avp/srp/DatabaseConnectionManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/avp/test/AppException.kt" />
+    <entry file="file://$PROJECT_DIR$/src/com/avp/srp/database/DatabaseConnectionManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="49" column="11" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
+        <state relative-caret-position="396">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/srp/domain/Employee.java">
+    <entry file="file://$PROJECT_DIR$/src/com/avp/srp/clients/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.desktop/java/awt/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="77" column="17" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avp/ocp/assignment/devices/Device.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avp/ocp/assignment/devices/Projector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding>
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avp/ocp/assignment/devices/SurroundSoundSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          <folding>
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avp/ocp/assignment/devices/TV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avp/ocp/Nurse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/srp/database/DatabaseConnectionManager.java">
+    <entry file="file://$PROJECT_DIR$/src/com/avp/ocp/EmergencyRoomProcess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/srp/domain/EmployeeDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/srp/clients/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="87" selection-start-line="9" selection-start-column="87" selection-end-line="9" selection-end-column="87" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/srp/reporting/FormatType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/ocp/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/ocp/Nurse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-          <folding>
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/ocp/Doctor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="88">
+          <caret line="4" column="46" lean-forward="true" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/avp/ocp/HospitalManagement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/ocp/EmergencyRoomProcess.java">
+    <entry file="file://$PROJECT_DIR$/src/com/avp/ocp/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="44">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/ocp/assignment/devices/Device.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/ocp/assignment/devices/TV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/ocp/assignment/devices/Projector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/srp/reporting/ReportFormatter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/avp/ocp/Doctor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avp/ocp/assignment/remotes/RemoteControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
           <folding>
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/srp/reporting/EmployeeReportFormatter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/avp/ocp/assignment/users/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example1/clients/DeviceFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="78" lean-forward="true" selection-start-line="13" selection-start-column="78" selection-end-line="13" selection-end-column="78" />
+        <state relative-caret-position="418">
+          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example1/processes/GeneralManufacturingProcess.java">
+    <entry file="file://$PROJECT_DIR$/src/com/avp/lsp/violation/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avp/lsp/violation/Square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avp/lsp/solution/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avp/lsp/solution/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+          <folding>
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avp/lsp/solution/Square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+          <folding>
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avp/lsp/MainLSP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avp/isp/Accounting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avp/isp/Reporting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avp/isp/AccountReceivable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avp/isp/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avp/isp/CustomerTransaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example1/clients/DeviceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example1/processes/GeneralManufacturingProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="10" selection-start-line="10" selection-end-line="15" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -858,64 +641,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example1/processes/SmartPhoneManufacturingProcess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example2/ICalculatorOperation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="57" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example2/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="66">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
           <folding>
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
             <element signature="e#280#281#0" expanded="true" />
             <element signature="e#354#355#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example2/CalculatorProgram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="19" column="81" selection-start-line="19" selection-start-column="81" selection-end-line="19" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example2/operation/MultiplyCalculatorOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-          <folding>
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example2/operation/DivideCalculatorOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -927,92 +666,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/lsp/violation/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-          <folding>
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/lsp/violation/Square.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/lsp/MainLSP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/isp/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding>
-            <element signature="e#100#101#0" expanded="true" />
-            <element signature="e#127#128#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#199#200#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/isp/Product.java">
+    <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example2/operation/DivideCalculatorOperation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-          <folding>
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-          </folding>
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/isp/Accounting.java">
+    <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example2/operation/MultiplyCalculatorOperation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/isp/Reporting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/isp/ReportGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/isp/AccountReceivable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/isp/MainISP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="17" column="70" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1023,89 +687,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/isp/CustomerTransaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/pattern/observer/observer/IObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/pattern/observer/subject/ISubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/pattern/observer/subject/EmployeeManagement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/pattern/observer/domain/EmployeeDAP.java">
+    <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example1/processes/SmartPhoneManufacturingProcess.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/pattern/observer/domain/EmployeeDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example2/CalculatorProgram.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#722#723#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="220">
+          <caret line="13" column="68" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/pattern/observer/domain/Employee.java">
+    <entry file="file://$PROJECT_DIR$/src/com/avp/pattern/builder/Bond.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding>
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#685#686#0" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#801#802#0" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
-            <element signature="e#941#942#0" expanded="true" />
-            <element signature="e#974#975#0" expanded="true" />
-            <element signature="e#1023#1024#0" expanded="true" />
-            <element signature="e#1067#1068#0" expanded="true" />
-            <element signature="e#1101#1102#0" expanded="true" />
-            <element signature="e#1131#1132#0" expanded="true" />
-            <element signature="e#1178#1179#0" expanded="true" />
-            <element signature="e#1216#1217#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avp/pattern/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        <state relative-caret-position="154">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
