@@ -14,7 +14,7 @@ public class EmployeeDAO {
 
     public List<Employee> generateEmployees(){
 
-        employees = new ArrayList<Employee>();
+        employees = new ArrayList<>();
 
         employees.add(emp1);
         employees.add(emp2);
