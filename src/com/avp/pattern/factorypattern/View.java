@@ -6,11 +6,10 @@ abstract public class View {
     private static final float MATCH_PARENT_HEIGHT = 600.10f;
 
     //attributes of visual content
-    private float width, height;
-    private String filter, sticker, location;
+    float width, height;
+    String filter, sticker, location;
 
     View() {
-
         //default settings
         this.width = MATCH_PARENT_WIDTH;
         this.height = MATCH_PARENT_HEIGHT;
@@ -18,6 +17,10 @@ abstract public class View {
         sticker = "none";
         location = "none";
     }
+
+    //abstract methods
+    abstract public void displayMedia();
+    abstract public void setContentForMedia(String content);
 
     public void setFilterEffect(String filter) {
 
