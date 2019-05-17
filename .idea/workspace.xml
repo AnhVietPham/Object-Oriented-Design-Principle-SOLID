@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d05a5cbe-b1ed-4b77-a5ec-12f25aa952fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/avp/pattern/builder/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/avp/pattern/builder/Bond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/avp/pattern/builder/Bond.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/avp/pattern/builder/BondBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/avp/pattern/builder/BondBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/avp/pattern/telescopingconstructor/DirtyPerson.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,15 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avp/dip/example2/CalculatorProgram.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="13" column="68" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/avp/pattern/builder/Bond.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -69,11 +57,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/avp/pattern/builder/BondBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="440">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/avp/pattern/telescopingconstructor/DirtyPerson.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -187,7 +184,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="avp" type="462c0819:PsiDirectoryNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="builder" type="462c0819:PsiDirectoryNode" />
+              <item name="telescopingconstructor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -366,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557998074167</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Builder patter: Done Builder pattern">
+      <created>1558066016944</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1558066016944</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -419,7 +423,8 @@
     <MESSAGE value="LSP Principle: done Solution LSP." />
     <MESSAGE value="Builder patter: Add Bond.java" />
     <MESSAGE value="Builder patter: Add BondBuilder.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Builder patter: Add BondBuilder.java" />
+    <MESSAGE value="Builder patter: Done Builder pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Builder patter: Done Builder pattern" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/avp/Main.java" />
@@ -770,8 +775,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/avp/pattern/builder/BondBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state relative-caret-position="440">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avp/pattern/telescopingconstructor/DirtyPerson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
         </state>
       </provider>
     </entry>
