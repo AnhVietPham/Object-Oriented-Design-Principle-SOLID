@@ -11,7 +11,7 @@ public class Bond {
     private String bondHolderName;
     private String bondIssuerName;
 
-    public Bond(Date maturityDate, Date startDate, double coupon, double yieldRate, double notional) {
+    Bond(Date maturityDate, Date startDate, double coupon, double yieldRate, double notional) {
         this.maturityDate = maturityDate;
         this.startDate = startDate;
         this.coupon = coupon;
@@ -59,11 +59,11 @@ public class Bond {
         this.notional = notional;
     }
 
-    public String getBondHolderName() {
+    String getBondHolderName() {
         return bondHolderName;
     }
 
-    public void setBondHolderName(String bondHolderName) {
+    void setBondHolderName(String bondHolderName) {
         this.bondHolderName = bondHolderName;
     }
 
@@ -71,7 +71,20 @@ public class Bond {
         return bondIssuerName;
     }
 
-    public void setBondIssuerName(String bondIssuerName) {
+    void setBondIssuerName(String bondIssuerName) {
         this.bondIssuerName = bondIssuerName;
+    }
+
+    @Override
+    public String toString() {
+        return "Bond{" +
+                "maturityDate=" + maturityDate +
+                ", startDate=" + startDate +
+                ", coupon=" + coupon +
+                ", yieldRate=" + yieldRate +
+                ", notional=" + notional +
+                ", bondHolderName='" + bondHolderName + '\'' +
+                ", bondIssuerName='" + bondIssuerName + '\'' +
+                '}';
     }
 }
