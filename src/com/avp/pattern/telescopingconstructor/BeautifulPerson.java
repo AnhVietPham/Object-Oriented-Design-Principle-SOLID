@@ -4,38 +4,26 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class DirtyPerson {
-    private final String name;
-    private final String lastName;
-    private final int age;
-    private final String profession;
-    private final List<String> hobbies;
+public class BeautifulPerson {
+    private String name;
+    private String lastName;
+    private int age;
+    private String profession;
+    private List<String> hobbies;
 
-    DirtyPerson(String name, String lastName) {
-        this.name = name;
-        this.lastName = lastName;
-        this.age = 0;
-        this.profession = null;
-        this.hobbies = new ArrayList<>();
+    BeautifulPerson(String name, String lastName) {
+        this(name, lastName, 0);
     }
 
-    DirtyPerson(String name, String lastName, int age) {
-        this.name = name;
-        this.lastName = lastName;
-        this.age = age;
-        this.profession = null;
-        this.hobbies = new ArrayList<>();
+    BeautifulPerson(String name, String lastName, int age) {
+        this(name, lastName, age, null);
     }
 
-    DirtyPerson(String name, String lastName, int age, String profession) {
-        this.name = name;
-        this.lastName = lastName;
-        this.age = age;
-        this.profession = profession;
-        this.hobbies = new ArrayList<>();
+    BeautifulPerson(String name, String lastName, int age, String profession) {
+        this(name, lastName, age, profession, null);
     }
 
-    DirtyPerson(String name, String lastName, int age, String profession, List<String> hobbies) {
+    BeautifulPerson(String name, String lastName, int age, String profession, List<String> hobbies) {
         this.name = name;
         this.lastName = lastName;
         this.age = age;
@@ -65,7 +53,7 @@ public class DirtyPerson {
 
     @Override
     public String toString() {
-        return "DirtyPerson{" +
+        return "BeautifulPerson{" +
                 "name='" + name + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", age=" + age +

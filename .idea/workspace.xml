@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d05a5cbe-b1ed-4b77-a5ec-12f25aa952fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/avp/pattern/telescopingconstructor/DirtyPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/avp/pattern/telescopingconstructor/BeautifulPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/avp/pattern/telescopingconstructor/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/avp/pattern/telescopingconstructor/DirtyPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/avp/pattern/telescopingconstructor/DirtyPerson.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,24 +20,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avp/pattern/builder/Bond.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="93" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="93" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.base/java/lang/StringBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1364">
-              <caret line="85" column="25" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.base/java/lang/AbstractStringBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -66,11 +52,59 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/avp/pattern/telescopingconstructor/DirtyPerson.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            <state relative-caret-position="132">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1292#1293#0" expanded="true" />
+                <element signature="e#1319#1320#0" expanded="true" />
+                <element signature="e#1353#1354#0" expanded="true" />
+                <element signature="e#1384#1385#0" expanded="true" />
+                <element signature="e#1410#1411#0" expanded="true" />
+                <element signature="e#1436#1437#0" expanded="true" />
+                <element signature="e#1472#1473#0" expanded="true" />
+                <element signature="e#1505#1506#0" expanded="true" />
+                <element signature="e#1544#1545#0" expanded="true" />
+                <element signature="e#1604#1605#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/avp/pattern/telescopingconstructor/BeautifulPerson.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#926#927#0" expanded="true" />
+                <element signature="e#953#954#0" expanded="true" />
+                <element signature="e#987#988#0" expanded="true" />
+                <element signature="e#1018#1019#0" expanded="true" />
+                <element signature="e#1044#1045#0" expanded="true" />
+                <element signature="e#1070#1071#0" expanded="true" />
+                <element signature="e#1106#1107#0" expanded="true" />
+                <element signature="e#1139#1140#0" expanded="true" />
+                <element signature="e#1178#1179#0" expanded="true" />
+                <element signature="e#1238#1239#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/avp/pattern/telescopingconstructor/Program.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -136,6 +170,10 @@
         <option value="$PROJECT_DIR$/src/com/avp/pattern/builder/Program.java" />
         <option value="$PROJECT_DIR$/src/com/avp/pattern/builder/Bond.java" />
         <option value="$PROJECT_DIR$/src/com/avp/pattern/builder/BondBuilder.java" />
+        <option value="$PROJECT_DIR$/src/com/avp/pattern/telescopingconstructor/BeautifullPerson.java" />
+        <option value="$PROJECT_DIR$/src/com/avp/pattern/telescopingconstructor/DirtyPerson.java" />
+        <option value="$PROJECT_DIR$/src/com/avp/pattern/telescopingconstructor/BeautifulPerson.java" />
+        <option value="$PROJECT_DIR$/src/com/avp/pattern/telescopingconstructor/Program.java" />
       </list>
     </option>
   </component>
@@ -211,26 +249,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Program">
+  <component name="RunManager" selected="Application.Program (1)">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.avp.srp.clients.Client" />
       <module name="Object-Oriented-Design-Principle-SOLID" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.avp.srp.clients.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EmergencyRoomProcess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.avp.ocp.EmergencyRoomProcess" />
-      <module name="Object-Oriented-Design-Principle-SOLID" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.avp.ocp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -279,20 +304,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.avp.pattern.telescopingconstructor.Program" />
+      <module name="Object-Oriented-Design-Principle-SOLID" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.avp.pattern.telescopingconstructor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Client" />
-      <item itemvalue="Application.EmergencyRoomProcess" />
       <item itemvalue="Application.MainLSP" />
       <item itemvalue="Application.Person" />
       <item itemvalue="Application.Program" />
+      <item itemvalue="Application.Program (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Program (1)" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.MainLSP" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Person" />
-        <item itemvalue="Application.EmergencyRoomProcess" />
       </list>
     </recent_temporary>
   </component>
@@ -370,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558066016944</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Telescoping Constructor: add DirtyPerson.java">
+      <created>1558066355306</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1558066355306</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -395,7 +440,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.038314175" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24521072" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -424,10 +469,10 @@
     <MESSAGE value="Builder patter: Add Bond.java" />
     <MESSAGE value="Builder patter: Add BondBuilder.java" />
     <MESSAGE value="Builder patter: Done Builder pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Builder patter: Done Builder pattern" />
+    <MESSAGE value="Telescoping Constructor: add DirtyPerson.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Telescoping Constructor: add DirtyPerson.java" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/avp/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/com/avp/srp/Employee.java" />
     <entry file="file://$PROJECT_DIR$/src/com/avp/srp/DatabaseConnectionManager.java" />
     <entry file="file://$PROJECT_DIR$/src/com/avp/test/AppException.kt" />
@@ -780,10 +825,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avp/pattern/telescopingconstructor/BeautifulPerson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#987#988#0" expanded="true" />
+            <element signature="e#1018#1019#0" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
+            <element signature="e#1070#1071#0" expanded="true" />
+            <element signature="e#1106#1107#0" expanded="true" />
+            <element signature="e#1139#1140#0" expanded="true" />
+            <element signature="e#1178#1179#0" expanded="true" />
+            <element signature="e#1238#1239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/avp/pattern/telescopingconstructor/DirtyPerson.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        <state relative-caret-position="132">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1292#1293#0" expanded="true" />
+            <element signature="e#1319#1320#0" expanded="true" />
+            <element signature="e#1353#1354#0" expanded="true" />
+            <element signature="e#1384#1385#0" expanded="true" />
+            <element signature="e#1410#1411#0" expanded="true" />
+            <element signature="e#1436#1437#0" expanded="true" />
+            <element signature="e#1472#1473#0" expanded="true" />
+            <element signature="e#1505#1506#0" expanded="true" />
+            <element signature="e#1544#1545#0" expanded="true" />
+            <element signature="e#1604#1605#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avp/pattern/telescopingconstructor/Program.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
         </state>
       </provider>
     </entry>
