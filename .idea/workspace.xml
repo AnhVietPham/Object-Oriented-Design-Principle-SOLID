@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d05a5cbe-b1ed-4b77-a5ec-12f25aa952fd" name="Default Changelist" comment="" />
+    <list default="true" id="d05a5cbe-b1ed-4b77-a5ec-12f25aa952fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/avp/pattern/factorypattern/VideoView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,24 +27,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avp/pattern/observer/clients/App.java">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/com/avp/pattern/builder/BondBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avp/pattern/observer/domain/EmployeeDAO.java">
+        <entry file="file://$PROJECT_DIR$/src/com/avp/pattern/factorypattern/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+            <state relative-caret-position="181">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/avp/pattern/factorypattern/TextView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/avp/pattern/builder/BondBuilder.java">
+        <entry file="file://$PROJECT_DIR$/src/com/avp/pattern/factorypattern/VideoView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="330">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -113,15 +129,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.base/java/util/Calendar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5632">
-              <caret line="313" column="25" selection-start-line="313" selection-start-column="25" selection-end-line="313" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.base/java/util/Date.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="13112">
@@ -168,6 +175,9 @@
         <option value="$PROJECT_DIR$/src/com/avp/pattern/telescopingconstructor/DirtyPerson.java" />
         <option value="$PROJECT_DIR$/src/com/avp/pattern/telescopingconstructor/Program.java" />
         <option value="$PROJECT_DIR$/src/com/avp/pattern/telescopingconstructor/BeautifulPerson.java" />
+        <option value="$PROJECT_DIR$/src/com/avp/pattern/factorypattern/View.java" />
+        <option value="$PROJECT_DIR$/src/com/avp/pattern/factorypattern/TextView.java" />
+        <option value="$PROJECT_DIR$/src/com/avp/pattern/factorypattern/VideoView.java" />
       </list>
     </option>
   </component>
@@ -216,15 +226,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="avp" type="462c0819:PsiDirectoryNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="builder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Object-Oriented-Design-Principle-SOLID" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Object-Oriented-Design-Principle-SOLID" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="avp" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="telescopingconstructor" type="462c0819:PsiDirectoryNode" />
+              <item name="factorypattern" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -424,7 +426,21 @@
       <option name="project" value="LOCAL" />
       <updated>1558067648264</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Factory Pattern: add View.java">
+      <created>1558079048365</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1558079048365</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Factory Pattern: add sub class TextView.java">
+      <created>1558079275279</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1558079275279</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
@@ -440,7 +456,7 @@
     <frame x="-8" y="-8" width="1554" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="574" y="58" width="389" height="783" id="Project" order="0" visible="true" weight="0.22623828" />
+      <window_info active="true" content_ui="combo" x="574" y="58" width="389" height="783" id="Project" order="0" visible="true" weight="0.22623828" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -449,7 +465,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24521072" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24521072" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -480,12 +496,11 @@
     <MESSAGE value="Builder patter: Done Builder pattern" />
     <MESSAGE value="Telescoping Constructor: add DirtyPerson.java" />
     <MESSAGE value="Telescoping Constructor: Done Telescoping constructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Telescoping Constructor: Done Telescoping constructor" />
+    <MESSAGE value="Factory Pattern: add View.java" />
+    <MESSAGE value="Factory Pattern: add sub class TextView.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Factory Pattern: add sub class TextView.java" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/avp/srp/Employee.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/avp/srp/DatabaseConnectionManager.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/avp/test/AppException.kt" />
     <entry file="file://$PROJECT_DIR$/src/com/avp/srp/database/DatabaseConnectionManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -883,6 +898,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avp/pattern/factorypattern/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avp/pattern/factorypattern/TextView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avp/pattern/factorypattern/VideoView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
         </state>
       </provider>
     </entry>
