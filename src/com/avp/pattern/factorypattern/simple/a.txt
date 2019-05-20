@@ -1,0 +1,58 @@
+
+public class FileSystemConnection {
+    // Some properties
+    public FileSystemConnection(// Some parameter) {
+        // Todo some thing
+    }
+}
+
+public class InventoryConnection {
+    // Some properties
+    public InventoryConnection(// Some parameter) {
+        // Todo some thing
+    }
+}
+
+public class PC {
+    // Some properties
+    public PC(// Some parameter) {
+        // Todo some thing
+    }
+    public boolean getFileSystemConection() {
+        // Todo some thing
+    }
+    public boolean isIventory() {
+        // Todo some thing
+    }
+}
+
+public class ProgramFPT {
+    public static void main(String args[]) {
+        FileSystemConnection fileSystemConnection2 = new FileSystemConnection("DC1", "100");
+        InventoryConnection inventoryConnection2 = new InventoryConnection("IC1", "100");
+        PC pc = new PC("3 GB", "500 GB", "2.4 GHz", fileSystemConnection2, inventoryConnection2);
+        pc.getFileSystemConnection();
+        pc.isInventory();
+    }
+}
+
+public class ProgramSenDo {
+    public static void main(String args[]) {
+        FileSystemConnection fileSystemConnection = new FileSystemConnection("DC1","100");
+        InventoryConnection inventoryConnection = new InventoryConnection("IC1","100");
+        PC pc = new PC("3 GB", "500 GB", "2.4 GHz", fileSystemConnection, inventoryConnection);
+        pc.getFileSystemConnection();
+        pc.isInventory();
+    }
+}
+
+public class ProgramSenpay {
+    public static void main(String args[]){
+        FileSystemConnection fileSystemConnection = new FileSystemConnection("DC1","100");
+        InventoryConnection inventoryConnection = new InventoryConnection("IC1","100");
+        PC pc1 = new PC("3 GB", "500 GB", "2.4 GHz", fileSystemConnection, inventoryConnection);
+        pc1.getFileSystemConnection();
+        pc1.isInventory();
+    }
+}
+

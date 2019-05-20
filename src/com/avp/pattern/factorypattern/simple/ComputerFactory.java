@@ -1,7 +1,7 @@
 package com.avp.pattern.factorypattern.simple;
 
-class ComputerFactory {
-    static Computer getComputer(TypeComputer typeComputer, String ram, String
+public class ComputerFactory {
+    public static Computer getComputer(TypeComputer typeComputer, String ram, String
             hdd, String cpu) {
         switch (typeComputer) {
             case PC: {
