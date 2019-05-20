@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d05a5cbe-b1ed-4b77-a5ec-12f25aa952fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/avp/pattern/factorypattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avp/pattern/factorypattern/simple/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avp/pattern/factorypattern/simple/ComputerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avp/pattern/factorypattern/simple/FileSystemConection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avp/pattern/factorypattern/simple/InventoryConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avp/pattern/factorypattern/simple/PC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avp/pattern/factorypattern/simple/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avp/pattern/factorypattern/simple/TypeComputer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avp/pattern/factorypattern/simple/program/ProgramFPT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avp/pattern/factorypattern/simple/program/ProgramSenDo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avp/pattern/factorypattern/simple/program/ProgramSenpay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/avp/pattern/observer/observer/HRDepartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/avp/pattern/observer/observer/HRDepartment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/avp/pattern/observer/observer/PayrollDepartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/avp/pattern/observer/observer/PayrollDepartment.java" afterDir="false" />
-    </list>
+    <list default="true" id="d05a5cbe-b1ed-4b77-a5ec-12f25aa952fd" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -268,41 +253,6 @@
               <item name="avp" type="462c0819:PsiDirectoryNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Object-Oriented-Design-Principle-SOLID" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Object-Oriented-Design-Principle-SOLID" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="avp" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="builder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Object-Oriented-Design-Principle-SOLID" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Object-Oriented-Design-Principle-SOLID" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="avp" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factorypattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Object-Oriented-Design-Principle-SOLID" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Object-Oriented-Design-Principle-SOLID" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="avp" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factorypattern" type="462c0819:PsiDirectoryNode" />
-              <item name="simple" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Object-Oriented-Design-Principle-SOLID" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Object-Oriented-Design-Principle-SOLID" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="avp" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factorypattern" type="462c0819:PsiDirectoryNode" />
-              <item name="simple" type="462c0819:PsiDirectoryNode" />
-              <item name="program" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -327,7 +277,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ProgramSenDo">
+  <component name="RunManager" selected="Application.Program (1)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.avp.pattern.factorypattern.Client" />
       <module name="Object-Oriented-Design-Principle-SOLID" />
@@ -362,6 +312,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.avp.lsp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Program (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.avp.pattern.coupling.Program" />
+      <module name="Object-Oriented-Design-Principle-SOLID" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.avp.pattern.coupling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -413,15 +376,15 @@
       <item itemvalue="Application.MainLSP" />
       <item itemvalue="Application.Program" />
       <item itemvalue="Application.Client (1)" />
-      <item itemvalue="Application.ProgramSenDo" />
+      <item itemvalue="Application.Program (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Program (1)" />
         <item itemvalue="Application.ProgramSenDo" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.MainLSP" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -555,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558081344737</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Factory Pattern: Simple example">
+      <created>1558335228639</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1558335228639</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView">
@@ -569,7 +539,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1554" height="916" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" x="574" y="58" width="389" height="783" id="Project" order="0" visible="true" weight="0.22891566" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -617,7 +586,8 @@
     <MESSAGE value="Factory Pattern: add sub class ImageView.java" />
     <MESSAGE value="Factory Pattern: add InstagramStory.java and IStory.java" />
     <MESSAGE value="Factory Pattern: add User.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Factory Pattern: add User.java" />
+    <MESSAGE value="Factory Pattern: Simple example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Factory Pattern: Simple example" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/avp/lsp/violation/Square.java">
