@@ -38,4 +38,15 @@ public class PC extends Computer {
     String getCPU() {
         return this.cpu;
     }
+
+    @Override
+    public String toString() {
+        return "PC{" +
+                "ram='" + ram + '\'' +
+                ", hdd='" + hdd + '\'' +
+                ", cpu='" + cpu + '\'' +
+                ", fileSystemConection=" + fileSystemConection.getNameDepartment() +
+                ", inventoryConnection=" + inventoryConnection.getNameInventory() +
+                '}';
+    }
 }

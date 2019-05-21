@@ -3,10 +3,10 @@ package com.avp.pattern.factorypattern;
 public interface IStory {
     int duration = 30;
 
-    public View save();
-    public void publish();
-    public void remove();
+    View save();
+    void publish();
+    void remove();
 
     //factory method
-    public View createViewForStory(String typeOfView,String content);
+    View createViewForStory(String typeOfView, String content);
 }
