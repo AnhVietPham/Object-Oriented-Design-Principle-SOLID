@@ -10,3 +10,14 @@ This project will use Java Language. LEARN-BY-DOING approach to explore a series
 * (L). Liskov Substitution.
 * (l). Interface Segregation.
 * (D). Dependency Inversion.
+Applying some of the most important DESIGN PATTERN:
+* 1). Strategy Pattern.
+* 2). Observer Pattern.
+* 3). Builder pattern.
+* 4). Factory method pattern.
+* 5). Template Method Pattern.
+* 6). Singleton Pattern.
+## Who this project is for:
+* If you've had trouble creating java programs that contain more than 1 or 2 classes, this course is for you.
+* If you're afraid to show your code to senior developers, you MUST take this project.
+* If you want to design well constructed software this project is for you
