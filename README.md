@@ -12,9 +12,9 @@ This project will use Java Language. LEARN-BY-DOING approach to explore a series
 * [(D). Dependency Inversion](https://github.com/anhviet8745/Object-Oriented-Design-Principle-SOLID/tree/master/src/com/avp/dip).
 ### Applying some of the most important DESIGN PATTERN:
 * 1). Strategy Pattern.
-* 2). Observer Pattern.
-* 3). Builder pattern.
-* 4). Factory method pattern.
+* [2). Observer Pattern](https://github.com/anhviet8745/Object-Oriented-Design-Principle-SOLID/tree/master/src/com/avp/pattern/observer).
+* [3). Builder pattern](https://github.com/anhviet8745/Object-Oriented-Design-Principle-SOLID/tree/master/src/com/avp/pattern/builder).
+* [4). Factory method pattern](https://github.com/anhviet8745/Object-Oriented-Design-Principle-SOLID/tree/master/src/com/avp/pattern/factorypattern).
 * 5). Template Method Pattern.
 * 6). Singleton Pattern.
 ## Who this project is for:
