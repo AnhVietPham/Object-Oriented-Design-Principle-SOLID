@@ -5,7 +5,7 @@
 * Basic understanding of one programming language.
 ## Description.
 This project will use Java Language. LEARN-BY-DOING approach to explore a series of progressively challenging exercises to discover the 5 core oject oriented design PRINCIPLES which summarized by an acronym called SOLID:
-* (S). Single Responsibility.
+* [(S). Single Responsibility](#https://github.com/anhviet8745/Object-Oriented-Design-Principle-SOLID/tree/master/src/com/avp/srp).
 * (O). Open/Closed.
 * (L). Liskov Substitution.
 * (l). Interface Segregation.
