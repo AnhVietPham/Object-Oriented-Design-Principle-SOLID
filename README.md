@@ -6,10 +6,10 @@
 ## Description.
 This project will use Java Language. LEARN-BY-DOING approach to explore a series of progressively challenging exercises to discover the 5 core oject oriented design PRINCIPLES which summarized by an acronym called SOLID:
 * [(S). Single Responsibility](https://github.com/anhviet8745/Object-Oriented-Design-Principle-SOLID/tree/master/src/com/avp/srp).
-* (O). Open/Closed.
-* (L). Liskov Substitution.
-* (l). Interface Segregation.
-* (D). Dependency Inversion.
+* [(O). Open/Closed](https://github.com/anhviet8745/Object-Oriented-Design-Principle-SOLID/tree/master/src/com/avp/ocp).
+* [(L). Liskov Substitution](https://github.com/anhviet8745/Object-Oriented-Design-Principle-SOLID/tree/master/src/com/avp/lsp).
+* [(l). Interface Segregation](https://github.com/anhviet8745/Object-Oriented-Design-Principle-SOLID/tree/master/src/com/avp/isp).
+* [(D). Dependency Inversion](https://github.com/anhviet8745/Object-Oriented-Design-Principle-SOLID/tree/master/src/com/avp/dip).
 ### Applying some of the most important DESIGN PATTERN:
 * 1). Strategy Pattern.
 * 2). Observer Pattern.
